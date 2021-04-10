@@ -23,7 +23,8 @@ body {
   color: var(--main-text-color);
 }
 
-.link {
+.link,
+.logo {
   color: inherit;
   text-decoration: none;
 }
@@ -40,14 +41,18 @@ body {
 .adress {
   font-style: inherit;
 }
-.header {
-}
+
 .nav-item {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
+
+.current {
+  color: var(--accent-color);
+}
+
 .header .contacts {
   font-weight: 500;
   line-height: 1.14;
